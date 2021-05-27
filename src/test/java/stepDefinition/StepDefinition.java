@@ -53,8 +53,7 @@ public class StepDefinition extends Utils {
 		
 		addPlacePayload = testData.payload(name,language,address);
 		request = given().log().all().spec(requestSpecification()).body(addPlacePayload);
-		System.out.println("Git Changes to commit check");
-		
+				
     }
 
     @When("user calls \"([^\"]*)\" with \\\"([^\\\"]*)\\\" http request")
